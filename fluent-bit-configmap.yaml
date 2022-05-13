@@ -83,8 +83,8 @@ data:
         Port            ${FLUENT_ELASTICSEARCH_PORT}
         tls On
         tls.verify Off
-        Logstash_Format On
-        Logstash_Prefix node
+        #Logstash_Format On
+        #Logstash_Prefix cpu
         Retry_Limit False
         Index my_index
         Type  my_type
