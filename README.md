@@ -18,3 +18,6 @@ We using fluent bit to pump the cpu metrics and containers log into opensearch. 
 ![enter image description here](https://github.com/wenjian80/ociopensearchfluentbit/blob/main/opnesearch1.JPG)
 
 ![enter image description here](https://github.com/wenjian80/ociopensearchfluentbit/blob/main/opensearch2.JPG)
+
+![enter image description here](https://github.com/wenjian80/ociopensearchfluentbit/blob/main/opensearchui.JPG)
+
