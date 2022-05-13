@@ -9,7 +9,13 @@ k apply -f fluent-bit-role-1.22.yaml
 
 k apply -f fluent-bit-role-binding-1.22.yaml
 
+DaemonSet example
+
 k apply -f fluent-bit-ds.yaml
+
+Side car example
+
+k apply -f fluent-bit-sc.yaml
 
 curl -XGET 'https://10.0.0.110:9200/_cat/indices?v&pretty' --insecure
 
