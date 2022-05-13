@@ -23,6 +23,8 @@ We using fluent bit to pump the cpu metrics and containers log into opensearch. 
 
 Refer to https://github.com/wenjian80/ociopensearchfluentbit/blob/main/fluent-bit-sc.yaml for example of a side car instead of DaemonSet
 
+if it pure vm refer to fluent bit installation on linux https://docs.fluentbit.io/manual/installation/linux
+
 ![enter image description here](https://github.com/wenjian80/ociopensearchfluentbit/blob/main/opnesearch1.JPG)
 
 ![enter image description here](https://github.com/wenjian80/ociopensearchfluentbit/blob/main/opensearch2.JPG)
