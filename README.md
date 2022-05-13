@@ -31,3 +31,14 @@ if it pure vm refer to fluent bit installation on linux https://docs.fluentbit.i
 
 ![enter image description here](https://github.com/wenjian80/ociopensearchfluentbit/blob/main/opensearchui.JPG)
 
+To configure cerebro
+
+install jdk
+
+download cerebro
+
+configure host
+
+add ws.ssl.loose.acceptAnyCertificate = true under play settings
+
+https://github.com/lmenezes/cerebro/releases/download/v0.9.4/cerebro-0.9.4.zip
