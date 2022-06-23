@@ -1,5 +1,13 @@
 # ociopensearchfluentbit
 
+# Disclaimer
+**Disclaimer: The information presented in this article is for educational/general information purposes only. Any scripts or examples are presented where-is, as-is, and are unsupported by Oracle Support and Development. Always refer to the official oracle documentation and other necessary documentation for offical steps.**
+
+An oke and opensearch is provision within the same vcn
+
+
+The parameter FLUENT_ELASTICSEARCH_HOST and FLUENT_ELASTICSEARCH_PORT has to be change to match your opensearch instance
+
 
 k create ns logging
 
