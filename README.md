@@ -17,6 +17,8 @@ k apply -f fluent-bit-role-1.22.yaml
 
 k apply -f fluent-bit-role-binding-1.22.yaml
 
+k apply -f fluent-bit-configmap.yaml
+
 DaemonSet example
 
 k apply -f fluent-bit-ds.yaml
