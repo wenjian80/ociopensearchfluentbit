@@ -29,7 +29,7 @@ k apply -f fluent-bit-sc.yaml
 
 curl -XGET 'https://10.0.0.110:9200/_cat/indices?v&pretty' --insecure
 
-By default the index name will be starting with logstash-* for logs.
+By default the index name will be starting with logstash-* for logs. Go to Stack Management->Index patterns->Create index pattern and see the index.
 
 We using fluent bit to pump the cpu metrics and containers log into opensearch. It is based on DaemonSet. If seperate logs is require then  fluent-bit need to configre as a sidecar.
 
