@@ -8,7 +8,7 @@ An oke and opensearch is provision within the same vcn
 
 The parameter FLUENT_ELASTICSEARCH_HOST and FLUENT_ELASTICSEARCH_PORT has to be change to match your opensearch instance
 
-
+# DaemonSet example
 k create ns logging
 
 k apply -f fluent-bit-service-account.yaml
@@ -19,14 +19,21 @@ k apply -f fluent-bit-role-binding-1.22.yaml
 
 k apply -f fluent-bit-configmap.yaml
 
-DaemonSet example
-
 k apply -f fluent-bit-ds.yaml
 
-Side car example
+# Side car example
+
+k create ns logging
+
+k apply -f fluent-bit-service-account.yaml
+
+k apply -f fluent-bit-role-1.22.yaml
+
+k apply -f fluent-bit-role-binding-1.22.yaml
 
 k apply -f fluent-bit-sc.yaml
 
+# Misc
 curl -XGET 'https://10.0.0.110:9200/_cat/indices?v&pretty' --insecure
 
 By default the index name will be starting with logstash-* for logs. Change prefix if we want to https://docs.fluentbit.io/manual/pipeline/outputs/elasticsearch.
